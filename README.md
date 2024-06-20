@@ -5,6 +5,29 @@ The goal of this project is to detect and track players, referees, and footballs
 
 ![Screenshot](output_videos/screenshot.png)
 
+## Repo Structure
+```
+repo/
+├── files/
+│   ├── annotated_frames/
+│   ├── input_videos/
+│   ├── models/
+│   ├── output_videos/
+│   ├── stubs/
+│   └── workbooks/
+├── utils/
+|   ├── __init__.py
+|   ├── bbox_utils.py
+|   ├── camera_movement_estimator.py
+|   ├── player_ball_assigner.py
+|   ├── speed_and_distance_estimator.py
+|   ├── team_assigner.py
+|   ├── tracker.py
+|   ├── video_utils.py
+|   └── view_transformer.py
+└── main.py
+```
+
 ## Modules Used
 The following modules are used in this project:
 - YOLO: AI object detection model
@@ -14,7 +37,7 @@ The following modules are used in this project:
 - Speed and distance calculation per player
 
 ## Trained Models
-- [Trained Yolo v5](https://drive.google.com/file/d/1DC2kCygbBWUKheQ_9cFziCsYVSRw6axK/view?usp=sharing)
+- [Trained Yolo v8](https://drive.google.com/file/d/1DC2kCygbBWUKheQ_9cFziCsYVSRw6axK/view?usp=sharing)
 
 ## Sample video
 -  [Sample input video](https://drive.google.com/file/d/1t6agoqggZKx6thamUuPAIdN_1zR9v9S_/view?usp=sharing)

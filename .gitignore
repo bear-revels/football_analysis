@@ -4,4 +4,5 @@ files/stubs/*
 files/models/*
 files/input_videos/*
 files/output_videos/*
+files/annotated_frames/*
 utils/__pycahce__
